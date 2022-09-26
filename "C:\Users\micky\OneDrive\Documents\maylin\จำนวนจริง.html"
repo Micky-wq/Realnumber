@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mali">
+    <title>Salinthip♡</title>
+
+    <link rel="stylesheet" href="จำนวนจริ๊ง.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<div>
+    <div class="head">จำนวนจริง</div>
+    <div class="background"></div>
+
+    <div>
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t1.15752-9/301825508_833768507786965_7318469678912145310_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFuaMjkGjJqxU218_PfzNoSMkF0uctrxuQyQXS5y2vG5BnAkd9A-d8OvyoIJon2NmwSVcEOPH_nYT1qdFc6NCKX&_nc_ohc=_VmfNkQUTf8AX_gICe7&tn=sDLUOQq3hqlMqxnA&_nc_ht=scontent.fbkk13-2.fna&oh=03_AVKx6cMUYVdP51k_9Vj9Owi-u6mW3fmWF2dzUZO7Q2VNKg&oe=633E2235">
+                    </div>
+                    <div class="swiper-slide"><img
+                            src="https://scontent.fbkk12-4.fna.fbcdn.net/v/t1.15752-9/295085988_1248596212599715_1027727145764954768_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFWn1mcs4FJX8j1FLs6zSbYFckRfTlZ_iwVyRF9OVn-LL3hWuuPFNOcleGQsvzTtYuoWgot66u7d_Q1BTtRMUPB&_nc_ohc=UOiNmcO75SQAX8rg-5J&tn=sDLUOQq3hqlMqxnA&_nc_ht=scontent.fbkk12-4.fna&oh=03_AVJPZJLKsaavjOWCo2tfH8QRBipUw1P7yXrba2JWlV9S8g&oe=6341459E">
+                    </div>
+                    <div class="swiper-slide"><img
+                            src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t1.15752-9/291951382_1721118608243729_1760632183365025093_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG3TNgAbnO8mvqLVUjEpgBq5BlsP9UiKYHkGWw_1SIpgRUG3j3EXU7jHvOyDFDFSMskY-XngwBjCe37Ixqg3gpQ&_nc_ohc=L4H4vB9mU9kAX-7vB5s&_nc_ht=scontent.fbkk8-4.fna&oh=03_AVI2oRv3dbOZ7oVUDZ0a9r6HOH67x8TRvrNOvFBwW1a1dA&oe=633E6669">
+                    </div>
+                    <div class="swiper-slide"><img
+                            src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/301383282_507170061243822_4984465555347009386_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHfjES_U9SRy-bAmiKMyqiNCa0fLpv3o5sJrR8um_ejm7hrhymqblg6KJ827iWa47m63Qzt6X_1E5EftblcN6O-&_nc_ohc=1_GAhAJ2E2cAX98D4F3&_nc_ht=scontent.fbkk13-1.fna&oh=03_AVKXjrJvDl3p575OMR-NuYs2CNfmDUiOHg-js2ZGpXPfew&oe=633DA98F">
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+                <script>
+                    const swiper = new Swiper('.swiper', {
+                        autoplay: {
+                            delay: 7000,
+                            disableOninteraction: false,
+                        },
+
+
+                        loop: true,
+
+
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+
+
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
+</html>
